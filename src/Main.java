@@ -1,15 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int account = 800;
-        int sum = 400;
+        int account = 100;
+        int sum = 300;
         int bonus;
         int balance;
 
+        if (sum > 1000) {
 
-        if ((account + sum) > 1000) {
-
-            bonus = (account + sum - 1000) / 100;
-
+            bonus = sum / 100;
 
             balance = account + sum + bonus;
 
@@ -21,4 +19,3 @@ public class Main {
         }
     }
 }
-
